@@ -1,135 +1,154 @@
-.vertical-menu {
-  width: 100px;
-  border-right: 1px solid gray;  
-}
-.vertical-menu a {
-  background-color: #1d2124;
-  color: black;
-  display: block;
-  padding: 12px;
-  text-decoration: none;
-}
-.vertical-menu a:hover {
-  background-color: #ccc;
-}
-
-.vertical-menu a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-$background-color: #2A2E37;
-$search-bg-color: #242628;
-$icon-color: #00FEDE;
-$transition: all .10s ease;
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background: $background-color;
-}
-
-.search {
-  width: 100px;
-  height: 100px;
-  margin: 40px auto 0;
-  background-color: $search-bg-color;
-  position: relative;
-  overflow: hidden;
-  transition: $transition;
-  &:before {
-    content: '';
-    display: block;
-    width: 3px;
-    height: 100%;
-    position: relative;
-    background-color: $icon-color;
-    transition: $transition;
-  }
-  &.open {
-    width: 800px;
-    &:before {
-      height: 60px;
-      margin: 20px 0 20px 30px;
-      position: absolute;
-    }
-  }
-}
-
-.search-box {
-  width: 100%;
-  height: 100%;
-  box-shadow: none;
-  border: none;
-  background: transparent;
-  color: #fff;
-  padding: 20px 100px 20px 45px;
-  font-size: 40px;
-  &:focus {
-    outline: none;
-  }
-}
-
-.search-button {
-  width: 100px;
-  height: 100px;
-  display: block;
+.pos {
   position: absolute;
-  right: 0;
-  top: 0;
-  padding: 20px;
-  cursor: pointer;
+  left: 8%;
 }
-
-.search-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 40px;
-  border: 3px solid $icon-color;
-  display: block;
-  position: relative;
-  margin-left: 5px;
-  transition: $transition;
-  &:before {
-    content: '';
-    width: 3px;
-    height: 15px;
-    position: absolute;
-    right: -2px;
-    top: 30px;
-    display: block;
-    background-color: $icon-color;
-    transform: rotate(-45deg);
-    transition: $transition;
-  }
-  &:after {
-    content: '';
-    width: 3px;
-    height: 15px;
-    position: absolute;
-    right: -12px;
-    top: 40px;
-    display: block;
-    background-color: $icon-color;
-    transform: rotate(-45deg);
-    transition: $transition;
-  }
-  .open & {
-    margin: 0;
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    &:before {
-      transform: rotate(52deg);
-      right: 22px;
-      top: 23px;
-      height: 18px;
-    }
-    &:after {
-      transform: rotate(-230deg);
-      right: 22px;
-      top: 13px;
-      height: 18px;
-    }
-  }
+.usericon {
+  position: absolute;
+  left: 10px;
+}
+.firsticon{
+  position: absolute;
+  top: 105px;
+  left: 10px;
+}
+.secicon{
+  position: absolute;
+  top: 195px;
+  left: 10px;
+}
+.thirdicon {
+  position: absolute;
+  top: 285px;
+  left: 10px;
+}
+.fourthicon {
+  position: absolute;
+  top: 375px;
+  left: 10px;
+}
+.fifthicon{
+  position: absolute;
+  top: 465px;
+  left: 10px;
+}
+.schoolstyle {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 100px;
+  font-size: 60px;
+  color: pink;
+}
+.user {
+  position: absolute;
+  margin-left: 110px;
+  top: 90px;
+}
+.rcorners1 {
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:600px;
+  height: 1px;
+  margin-top: 100px;
+  margin-left: 195px  
+}
+.rcorners2 {
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:300px;
+  height: 1px;
+  margin-top: 125px;
+  margin-left: 195px  
+}
+.rcorners3 {
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:100px;
+  height: 1px;
+  margin-top: 200px;
+  margin-left: 195px  
+}
+.rcorners4 {
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:50px;
+  height: 1px;
+  margin-top: 225px;
+  margin-left: 195px  
+}
+.rcorners5 {
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:80px;
+  height: 1px;
+  margin-top: 295px;
+  margin-left: 195px  
+}
+.rcorners6 {
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:200px;
+  height: 1px;
+  margin-top: 395px;
+  margin-left: 195px
+}
+.rcorners7{
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:195px;
+  height: 1px;
+  margin-top: 418px;
+  margin-left: 195px
+}
+.rcorners8{
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:380px;
+  height: 1px;
+  margin-top: 490px;
+  margin-left: 195px
+}
+.rcorners9 {
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:400px;
+  height: 1px;
+  margin-top: 515px;
+  margin-left: 195px
+}
+.rcorners10 {
+  position: absolute;
+  border-radius: 25px;
+  background: grey;
+  padding: 8px;
+  width:750px;
+  height: 1px;
+  margin-top: 540px;
+  margin-left: 195px
+}
+.chatbox {
+  float: right;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: lightgrey;
+  padding: 1px; 
+  width: 160px;
+  height: 600px; 
 }
